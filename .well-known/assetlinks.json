@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.nomadsmoker.captainpatch",
+      "sha256_cert_fingerprints": [
+        "7E:19:22:09:BE:A0:FE:E4:E2:D6:60:EB:BE:18:8B:99:D9:9A:B3:C9:0C:1E:48:9A:D5:B1:E4:B1:E9:6F:CF:DC"
+      ]
+    }
+  }
+]
