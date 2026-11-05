@@ -51,6 +51,8 @@ document.getElementById('h').textContent = T[0];
 if (time) document.getElementById('p').textContent = T[1].replace('%n', n).replace('%t', time);
 document.getElementById('s').textContent = T[2];
 document.getElementById('w').textContent = T[3];
+// on iPhone, iPad and Mac the App Store is the way in: no other download or play link there
+if (/iPhone|iPad|iPod|Macintosh/.test(navigator.userAgent)) document.getElementById('w').style.display = 'none';
 </script>
 </body>
 </html>
